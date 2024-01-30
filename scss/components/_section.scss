@@ -1,0 +1,62 @@
+.section {
+  width: 100%;
+  padding-top: 50px;
+
+  &__text {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    text-align: center;
+  }
+
+  &__subtitle {
+    color: #8f94ff;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    text-transform: uppercase;
+  }
+
+  &__title {
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 70px;
+  }
+
+  &__cards {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  &__title {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    color: #fff;
+  }
+
+  &__subtitle {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    color: #fff;
+  }
+
+  // &__image {
+  //   width: 210px;
+  //   height: 260px;
+  // }
+}
